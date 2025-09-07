@@ -5,7 +5,7 @@ metadata:
   namespace: expense
 spec:   
   containers: 
-  -name: nginx
+  - name: nginx
   image: nginx:stable-perl
 
 
