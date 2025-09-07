@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: lables
   namespace: expense
-  lables:
+  labels:
     image: nginx
     environment: dev
     Auther: Muneer
