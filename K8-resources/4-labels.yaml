@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: lables
+  lables:
+    image: nginx
+    environment: dev
+    Auther: Muneer
+    module: backend
+    project: expense
+spec:
+  containers:
+    -name: nginx
+    image: nginx
