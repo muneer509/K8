@@ -11,5 +11,5 @@ metadata:
     project: expense
 spec:
   containers:
-    -name: nginx
+  - name: nginx
     image: nginx
