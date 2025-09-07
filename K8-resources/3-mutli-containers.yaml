@@ -9,4 +9,4 @@ spec:
     image: nginx
   - name: almalinux
     image: almalinux:9
-    commad: ["sleep", "20000"]
+    command: ["sleep", "20000"]
