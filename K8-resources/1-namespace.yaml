@@ -1,7 +1,16 @@
-apiVersion: v1alpha5
+# apiVersion: v1alpha5
+# kind: Namespace
+# metadata: 
+#   name: expense
+#   lables:
+#     project: expense
+#     environment: dev
+
+
+apiVersion: v1
 kind: Namespace
-metadata: 
+metadata:
   name: expense
-  lables:
+  labels:
     project: expense
     environment: dev
